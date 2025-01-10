@@ -286,6 +286,84 @@ font-size: 32px;
     margin-bottom: 80px;
 }
 /* vision ends */
+/* recent starts */
+.recent-content{
+    width:1280px;
+    border-radius: 24px;
+   background: #fff;
+}
+.recent-news{
+    text-align: left;
+    width:1280px;
+}
+.recent-news h2 {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color:#0E0E0ECC;
+}
+.recent-news p{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:#0E0E0ECC;
+    opacity: 0.7;
+    margin: 32px 0px;
+}
+.recent-content{
+    padding:48px 0px 48px 48px;
+    display: flex;
+    gap:32px;
+    margin: 24px 0px;
+}
+.recent-content h3{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size:32px;
+    line-height: 38px;
+    color:#0E0E0ECC;
+    opacity: 0.8;
+    margin-bottom: 12px;
+}
+.recent-card span {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-size:16px;
+    line-height: 24px;
+    color:#0E0E0ECC;
+    opacity: 0.7;
+   
+}
+.recent-image img{
+    width:408 ;
+    height:306 ;
+    border-radius: 24px;
+    
+
+}
+.recent-content .common-btn button {
+    padding:17px 34px;
+    background: #006A50;
+    border: none;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.recent-content .common-btn  a{
+    color:#ffffff;
+}
+.recent-content .common-btn:hover button{
+    border:2px solid#006A50;
+    background: transparent;
+}
+.recent-content .common-btn:hover a{
+    color:#006A50;
+    transition: .5s;
+}
+/* recent ends */
 /* donate starts */
 .donate-contant{
     width:1280px;
