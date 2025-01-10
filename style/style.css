@@ -167,7 +167,9 @@ font-size: 32px;
 }
 /* piller ends */
 /* vision starts */
-
+#vision{
+    width:1280px;
+}
 #vision .vision-head h2{
     color:#0E0E0E;
     font-size: 40px;
@@ -266,6 +268,7 @@ font-size: 32px;
     opacity:0.6;
 }
 .vision-quote{
+    width:1280px;
     margin-bottom: 80px;
 }
 /* vision ends */
