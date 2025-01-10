@@ -6,6 +6,9 @@
     padding:0;
     box-sizing: border-box;
 }
+body{
+    background-color: #f5f5f5;
+}
 .container{
     width:80%;
     margin:0 auto;
@@ -107,9 +110,58 @@ font-size: 32px;
     background-color: transparent;
     border: 1px solid#006A50;
     transition: 0.5s;
-
 }
 .banner-btn button:hover a {
     color:#006A50;
 }
 /* banner ends */
+/* piller starts */
+#piller{
+   margin:80px 0px;
+}
+.piller-content{
+    width:1280px;
+}
+#piller h2{
+    font-family: "Fira Sans", serif;
+    color:#0E0E0E;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+#piller .card-content{
+    display: flex;
+    justify-content: space-between;
+    gap:24px;
+}
+#piller .piller-card .card-img {
+    padding:24px 0px;
+}
+.piller-card{
+    border:1px solid#0E0E0E26;
+    border-radius: 16px;
+    box-shadow: -1px 1px 5px 0px rgba(0,0,0,0.25);
+    padding:24px;
+    background: #ffffff;
+}
+.piller-card h3{
+    font-family: "Fira Sans", serif;
+    color:#0E0E0ECC;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    opacity: 0.8;
+}
+.piller-card p{
+    font-family: "Fira Sans", serif;
+    color:#0E0E0EB2;
+    font-weight:400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity:0.7;
+    
+}
+.piller-head h2{
+    margin-bottom: 24px;
+}
+/* piller ends */
