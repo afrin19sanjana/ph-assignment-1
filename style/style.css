@@ -288,6 +288,9 @@ font-size: 32px;
 }
 /* vision ends */
 /* opinion starts */
+.opinion-box{
+    width:1216px;
+}
 
 #opinion h2{
     font-family: "Fira Sans", serif;
@@ -315,9 +318,9 @@ font-size: 32px;
     border:1px solid#0E0E0E26;
 }
 .option-body{
-display: flex;
-justify-content: space-between;
-align-items:center;
+   display: flex;
+   justify-content: space-between;
+   align-items:center;
 
 }
 .option-body p{
@@ -327,13 +330,13 @@ align-items:center;
     font-size: 16px;
     line-height: 19px;  
     padding:36.5px 0px;
-    width:1017px;
+    width:1016px;
     border:1px solid#0E0E0E26;
     padding-left: 20px;
 }
 .option-body 
 .option-box{
- width:246px;
+ width:200px;
  height:93.5px;
  border:1px solid#0E0E0E26;
  padding-left: 60px;
